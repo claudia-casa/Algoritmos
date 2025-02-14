@@ -1,0 +1,16 @@
+Anotações:
+
+## COMANDOS GIT ##
+==>Git Init: cria repositorio local
+==>Git status: cria repositorio local
+==>Git config --global --list: exibe configurações globais
+==>Git config --global user.name "fulano-de-tal": configura caonta de usuário no git
+==>Git config --global user.email "fulano@teste.com": configura email do usuário git
+==> git reset  [arquivo.ext]: remove arquivo da area staging
+==> git add  [arquivo.ext]: adiciona arquivo da area staging
+
+## COMANDOS LINUX ##
+TOUCH
+ECHO
+ECHO LS
+MKDIR
