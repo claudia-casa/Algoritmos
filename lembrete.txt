@@ -40,3 +40,6 @@ git config --global alias.np '!notepad.exe'
 git config --global --list
 
 
+git branch (listar e criar branches)
+git checkout e git switch (acessar e criar branches)
+git merge  (mesclar branches)

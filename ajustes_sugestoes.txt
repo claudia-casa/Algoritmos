@@ -1,0 +1,1 @@
+'Este arquivo será utilizado para documentar sugestões de melhorias e ajustes no projeto. Com isso, a equipe poderá acompanhar feedbacks e implementar mudanças de forma mais organizada.'
