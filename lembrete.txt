@@ -5,10 +5,14 @@ Anotações:
 ==> echo "conteúdo" > [nomeDoArquivo.ext]: escreve no arquivo apagando todo o seu conteúdo
 ==> echo "conteúdo" >> [nomeDoArquivo.ext]: estende (append) no arquivo preservando o seu conteúdo
 ==> cat [nomeDoArquivo.ext] exibe arquivo na tela
-==> ls -d ./* exibe arquivos e diretórios ocultos no git bash
+==> ls -d ./*: exibe arquivos e diretórios ocultos no git bash
+==> ls -l -a ./*: exibe arquivos e diretórios ocultos com detalhes (tamanho, data...) no git bash
 ==> mkdir [nomeDiretorio]: criar um novo diretório
 ==> cd [nomeDiretorio]/: navegar entre diretórios
+==> cp [nomeDoArquivoOrigem.ext] [nomeDoArquivoDestino.ext]: copia um arquivo
+==> rm [nomeDoArquivo.ext]: apaga arquivo
 ==> rm -rf [nomeDiretorio]: apaga diretórios sem confirmção de forma recursiva
+==> rm -rf  .git: desassinala diretório marcado com "git"
  
 ### COMANDOS GIT ###
 ==> git init: cria repositório local
@@ -17,8 +21,22 @@ Anotações:
 ==> git config --global --list: exibe configurações globais
 ==> git config --global user.name "fulano-de-tal": configura conta de usuário no git
 ==> git config --global user.email "fulano@teste.com": configura email do usuário
+==> git config --global diff.tool p4merge
+==> git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+==> git config --global difftool.prompt false
+==> git config --global merge.tool p4merge
+==> git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+==> git config --global mergetool.prompt false
 ==> git reset --staged [arquivo.ext]: remover arqvuio da area staging
 ==> git diff [arquivo.ext]: exibe arquivo com diferenças
 ==> git add [arquivo.ext]: adicionar arquivo na area staging
 ==> git commit -m "texto"
 ==> git remote add origin https://github.com/senai-tds/Algoritmos.git mapear no repositorio local o repositório remoto
+
+git config --global alias.npp '!"C:/Program Files/***/.." -multiInst -nosession' 
+C:/Program Files/Perforce/p4merge.exe
+-----------------
+git config --global alias.np '!notepad.exe'
+git config --global --list
+
+
