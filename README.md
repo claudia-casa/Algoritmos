@@ -8,4 +8,7 @@ Sala:............Plataforma Microsoft Teams
 ### Aprendi os comandos: git branch, git  checkout e git switch ###
 ### aprendi mais um comando: git merge ###
 Sobre o Projeto
+
 ### Adicionada informação sobre a implementação no backend ###
+### Adicionada informação sobre a implementação no frontkend ###
+
